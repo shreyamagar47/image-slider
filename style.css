@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ddeeae;
+}
+
+.slider {
+    max-width: 600px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#main-image {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    background-color: rgb(227, 240, 169);
+}
+
+.buttons {
+    margin: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#dots {
+    margin: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #d5e261;
+}
+
+.dot.active {
+    background-color: #beca7a;
+}
+
+@media (max-width: 600px) {
+    #main-image {
+        height: 250px;
+    }
+}
